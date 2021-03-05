@@ -114,7 +114,7 @@ def leaveRoom(event):
         how_many_people = len(socketio.sockio_mw.engineio_app.manager.rooms['/'][str(event['room'])])
     except:
         how_many_people = 1
-    if 1 < how_many_people <= 5 :
+    if 1 < how_many_people <= 6 :
         for i in socketio.sockio_mw.engineio_app.manager.rooms['/'][str(event['room'])]:
             if i != event['client']:
                 emit('leave_room',{'F':event['client'],'T':i},room=i)
