@@ -19,7 +19,7 @@ warining : this meeting room that can only accommodate 6 people.<br><br>
 
 ## how to use
 1. cmd : pip install -r requirements.txt<br>
-2. unzip ffmpeg-2020-12-20-git-ab6a56773f-full_build.7z and install it on Root directory<br>
+2. unzip ffmpeg-2020-12-20-git-ab6a56773f-full_build.7z and copy it on Root directory and rename to ffmpeg<br>
 3. add your_path/ffmpeg/bin to your envirment path
 4. cmd : python app.py<br>
 5. creat a folder in the root directory,folder name: record<br>
