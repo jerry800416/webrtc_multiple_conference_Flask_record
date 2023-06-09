@@ -120,7 +120,7 @@ def splitListDir(path,splitstring,cindex):
 if __name__ == '__main__':
 
     # recordpath = r"D:\\WebSite\\ITTS-EP-FRONTSITE\\wwwroot\\RecordUpload\\"
-    recordpath = "E:\\work\\webrtc\\mutilwebconference0.0.5\\record\\"
+    recordpath = "D:\\webrtc_multiple_conference_Flask_record\\record\\"
     record_list = os.listdir(recordpath)
     yesterday = str(datetime.date.today()-datetime.timedelta(days=0))
     # for each all room

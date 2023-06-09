@@ -20,17 +20,20 @@ warining : this meeting room that can only accommodate 6 people.<br><br>
 ## how to use
 1. cmd : pip install -r requirements.txt<br>
 2. unzip ffmpeg-2020-12-20-git-ab6a56773f-full_build.7z and install it on Root directory<br>
-3. cmd : python app.py<br>
-4. creat a folder in the root directory,folder name: record<br>
-5. open browser and enter url: localhost:3000<br>
-6. if you want to merge record audio, cmd : python mergevideo.py<br>
-7. enjoy it!<br><br>
+3. add your_path/ffmpeg/bin to your envirment path
+4. cmd : python app.py<br>
+5. creat a folder in the root directory,folder name: record<br>
+6. open browser and enter url: localhost:3000<br>
+7. if you want to merge record audio, cmd : python mergevideo.py<br>
+8. enjoy it!<br><br>
 
 ## history
 
 #### 20210305 update
 1. first upload <br><br>
 
+#### 20230609 update
+1. 更新環境&readme <br><br>
 
 # **Coturn server 架設(ubuntu 18.04) **
 <br>

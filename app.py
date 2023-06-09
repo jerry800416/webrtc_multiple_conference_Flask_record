@@ -5,7 +5,7 @@ from datetime import datetime
 import os,time,json
 
 
-app = Flask(__name__, template_folder='E:\work\webrtc\mutilwebconference0.0.5\\')
+app = Flask(__name__, template_folder='D:\webrtc_multiple_conference_Flask_record\\')
 app.config["DEBUG"] = True
 # app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app,cors_allowed_origins='*')
